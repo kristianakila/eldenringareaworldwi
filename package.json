@@ -1,0 +1,21 @@
+{
+  "name": "streak-backend",
+  "version": "1.0.0",
+  "description": "Backend for Telegram Streak App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "axios": "^1.6.0",
+    "express-rate-limit": "^6.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
